@@ -6,6 +6,9 @@
   
   This a Portolio webpage with a header and a headline section for mobile phones.
   
+  ![Screenshot from 2022-09-21 17-34-10](https://user-images.githubusercontent.com/105572944/191574647-8cc912f0-7cef-4598-94f9-43de79320d0d.png)
+
+  
 
 
 ## Built With
