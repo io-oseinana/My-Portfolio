@@ -29,6 +29,7 @@
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 3.5rem;
+  width: 327px;
 }
 
 .nav-toggle {
@@ -57,6 +58,7 @@
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  width: 327px;
   margin: 1.8rem 2rem 0 1.2rem;
   text-align: center;
   color: #172b4d;
@@ -91,8 +93,10 @@
   .headline-sec {
     display: flex;
     flex-direction: column;
+    height: 648px;
     background-image: url(/img/bg-header-illsutration-img/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   /* Meni Icon(hamburger */
