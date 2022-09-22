@@ -126,9 +126,11 @@ ul li {
     transition: all 0.5s ease;
     cursor: pointer;
   }
+
   .hamburger::before {
     top: 6px;
   }
+
   .hamburger::after {
     bottom: 6px;
   }
@@ -156,7 +158,8 @@ ul li {
   }
 
   .about-section {
-    background-image: url(/img/about-bg/illustration1-about-me-mobile.svg),
+    background-image:
+      url(/img/about-bg/illustration1-about-me-mobile.svg),
       url(/img/about-bg/illustration-about-me-mobile.svg);
     background-repeat: no-repeat;
     background-position: right -2.1%, 6% -4%;
@@ -256,6 +259,7 @@ ul li {
   gap: 8px;
   height: 32px;
 }
+
 .project-language .language {
   background: #ebf0ee;
   font-weight: 600;
@@ -279,6 +283,15 @@ ul li {
   cursor: pointer;
   font-weight: 500;
   color: #fff;
+}
+
+.about-text .button {
+  width: 159px;
+  height: 48px;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .text-container .button:hover,
@@ -333,15 +346,6 @@ button {
   color: #42526e;
 }
 
-.about-text .button {
-  width: 159px;
-  height: 48px;
-  padding: 12px;
-  background: #36b37f;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 .profession-skills {
   display: grid;
   justify-content: center;
@@ -386,7 +390,6 @@ button {
   line-height: 16px;
   letter-spacing: 0.03em;
   background-color: #fff;
-  border-radius: 8px;
   color: #3a4a42;
   list-style: none;
   padding: 12px;
