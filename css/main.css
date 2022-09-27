@@ -281,7 +281,6 @@ ul li {
   background: #36b37e;
   text-align: center;
   border-radius: 4px;
-  cursor: pointer;
   font-weight: 500;
   font-size: 17px;
   color: #fff;
@@ -302,6 +301,12 @@ ul li {
   cursor: pointer;
 }
 
+form button:hover {
+  background: #36b37f;
+  transition: all 0.5s ease;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 .text-container button:hover,
 .about-text button:hover {
   background: #36b37f;
@@ -312,7 +317,7 @@ ul li {
 .text-container button:active,
 .about-section button:active,
 .form-section button:active {
-  background-color:  #008552;
+  background-color: #008552;
 }
 
 /* about section */
@@ -486,12 +491,6 @@ form .submitBtn {
 input:focus,
 textarea:focus {
   border-color: #36b37e;
-}
-
-form button:hover {
-  background: #36b37f;
-  transition: all 0.5s ease;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .form-section .social-contact .social {
