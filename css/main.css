@@ -177,17 +177,6 @@ ul li {
   }
 }
 
-.text-container button,
-.about-section button {
-  border: none;
-  color: #fff;
-  background: none;
-  font-weight: 500;
-  font-size: 17px;
-  text-align: center;
-  cursor: pointer;
-}
-
 /* social contact icons */
 
 .social .social-links {
@@ -284,7 +273,8 @@ ul li {
   white-space: nowrap;
 }
 
-.text-container .button {
+.text-container button {
+  border: none;
   width: 122px;
   margin: 24px;
   padding: 12px;
@@ -293,23 +283,36 @@ ul li {
   border-radius: 4px;
   cursor: pointer;
   font-weight: 500;
+  font-size: 17px;
   color: #fff;
-}
-
-.about-text .button {
-  width: 159px;
-  height: 48px;
-  padding: 12px;
-  background: #36b37f;
-  border-radius: 4px;
   cursor: pointer;
 }
 
-.text-container .button:hover,
-.about-text .button:hover {
+.about-text button {
+  border: none;
+  width: 159px;
+  height: 48px;
+  padding: 12px;
+  font-weight: 500;
+  font-size: 17px;
+  background: #36b37f;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.text-container button:hover,
+.about-text button:hover {
   background: #36b37f;
   transition: all 0.5s ease;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-container button:active,
+.about-section button:active,
+.form-section button:active {
+  background-color:  #008552;
 }
 
 /* about section */
@@ -407,7 +410,7 @@ ul li {
 .form-section {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-image: url(/img/form-bg/illustration-contact-form.svg);
