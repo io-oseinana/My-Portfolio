@@ -62,11 +62,11 @@
   color: #172b4d;
 }
 
-.social-contact {
+.headline-contact {
   margin-top: -90px;
 }
 
-.social-contact .social {
+.headline-contact .social {
   display: flex;
   flex-direction: row;
   margin-top: 10rem;
@@ -273,42 +273,51 @@ ul li {
   white-space: nowrap;
 }
 
-.text-container .button {
+.text-container button {
+  border: none;
   width: 122px;
   margin: 24px;
   padding: 12px;
   background: #36b37e;
   text-align: center;
   border-radius: 4px;
-  cursor: pointer;
   font-weight: 500;
+  font-size: 17px;
   color: #fff;
+  cursor: pointer;
 }
 
-.about-text .button {
+.about-text button {
+  border: none;
   width: 159px;
   height: 48px;
   padding: 12px;
+  font-weight: 500;
+  font-size: 17px;
   background: #36b37f;
   border-radius: 4px;
+  text-align: center;
+  color: #fff;
   cursor: pointer;
 }
 
-.text-container .button:hover,
-.about-text .button:hover {
+form button:hover {
   background: #36b37f;
   transition: all 0.5s ease;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-button {
-  border: none;
-  color: #fff;
-  background: none;
-  font-weight: 500;
-  font-size: 17px;
-  text-align: center;
-  pointer-events: none;
+.text-container button:hover,
+.about-text button:hover {
+  background: #36b37f;
+  transition: all 0.5s ease;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-container button:active,
+.about-section button:active,
+.form-section button:active {
+  background-color: #008552;
 }
 
 /* about section */
@@ -390,7 +399,7 @@ button {
   line-height: 16px;
   letter-spacing: 0.03em;
   background-color: #fff;
-  color: #3a4a42;
+  color: #36b37f;
   list-style: none;
   padding: 12px;
 }
@@ -399,4 +408,110 @@ button {
   height: 88px;
   top: 56px;
   gap: 8px;
+}
+
+/* styling form section */
+
+.form-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/img/form-bg/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: 97.72% 91%;
+  width: 100%;
+  gap: 58px;
+  padding: 64px 24px 64px 24px;
+}
+
+.form-section .form-text-primary {
+  display: flex;
+  text-align: center;
+  width: 327px;
+  top: 64px;
+  left: 24px;
+  gap: 24px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 320px;
+  height: 330px;
+}
+
+form .text-field {
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 400;
+  left: 15px;
+  width: 327px;
+  height: 48px;
+  padding: 10px;
+  outline: none;
+  background-color: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+form textarea {
+  width: 327px;
+  padding: 10px;
+  height: 114px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+form .submitBtn {
+  border: none;
+  color: #ffff;
+  padding: 12px;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  height: 48px;
+  width: 129px;
+  background: #36b37f;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 24px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #36b37e;
+}
+
+.form-section .social-contact .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.support-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+}
+
+.support-text a {
+  text-decoration: none;
+  color: #42526e;
+  font-size: 20px;
+  font-weight: 400;
+  height: 189px;
 }
