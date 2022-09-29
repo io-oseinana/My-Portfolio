@@ -4,7 +4,9 @@
 
 > Description the project.
   
-  This a Portolio webpage with a header, headline section, work, about section and contact form section for mobile phones.
+  This Portolio webpage contain a Complete mobile version and desktop version built with HTML and CSS
+  
+  ## Mobile Version Screenshots
   
   ![Screenshot from 2022-09-21 17-34-10](https://user-images.githubusercontent.com/105572944/191574647-8cc912f0-7cef-4598-94f9-43de79320d0d.png)
 
@@ -15,6 +17,17 @@
   ![Screenshot from 2022-09-22 22-10-29](https://user-images.githubusercontent.com/105572944/191864005-3f48aa1c-1e85-42a6-bf1b-bbafdaf7899a.png)
   
   ![Screenshot from 2022-09-27 12-31-11](https://user-images.githubusercontent.com/105572944/192527040-e52028ff-4502-4979-91c5-93371fb8c2dd.png)
+  
+  ## Desktop Version Screenshots
+  
+  ![Screenshot from 2022-09-29 17-13-30](https://user-images.githubusercontent.com/105572944/193098320-12b3f0de-e4e8-4f8b-8c4a-1bc1b5c76b96.png)
+
+  ![Screenshot from 2022-09-29 17-14-03](https://user-images.githubusercontent.com/105572944/193098383-8ed4a0a8-5f12-477e-a0ae-28f36b2614d8.png)
+  
+  ![Screenshot from 2022-09-29 17-14-19](https://user-images.githubusercontent.com/105572944/193098427-de30b352-d133-401c-989c-4910eec6e3d6.png)
+
+  ![Screenshot from 2022-09-29 17-14-30](https://user-images.githubusercontent.com/105572944/193098465-e6e5b07b-8cd5-4092-8d1d-f0ce03ac2900.png)
+
 
 ## Built With
 - HTML
