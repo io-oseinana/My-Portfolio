@@ -1,8 +1,6 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Portolio-Project
 
-> Description the project.
+> Description of the project.
   
   This Portolio webpage contain a Complete mobile version and desktop version built with HTML and CSS
   
