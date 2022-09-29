@@ -167,7 +167,7 @@
       url(/img/desktop/Frame2.svg),
       url(/img/desktop/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat;
-    background-position: 55.18% 0.08%, 100% 97.52%, 0% 98%, 17% 95%;
+    background-position: 55.18% 0%, 100% 97.52%, 0% 98%, 17% 95%;
   }
 
   .headline-sec {
@@ -204,6 +204,12 @@
   .work-section .work-header {
     width: 527px;
     line-height: 75px;
+  }
+
+  .work-header .work-title {
+    font-weight: 700px;
+    font-size: 40px;
+    font-style: normal;
   }
 }
 
