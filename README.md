@@ -36,13 +36,12 @@
 
 ## Getting Started
 
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
   - Git must be installed on local computer
+  - Must have a code editor
 
 ### Setup
   - git clone https://github.com/io-oseinana/My-Portfolio.git
@@ -50,11 +49,11 @@ To get a local copy up and running follow these simple example steps.
   - cd My-Portfolio
 
 
-## Authors
+## Author
 
-- GitHub: [@githubhandle](https://github.com/io-oseinana)
-- Twitter: [@twitterhandle](https://twitter.com/IsaacOs87131165)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/oseinana-isaac7)
+- GitHub: [@io-oseinana](https://github.com/io-oseinana)
+- Twitter: [@IsaacOs87131165](https://twitter.com/IsaacOs87131165)
+- LinkedIn: [oseinana-isaac7](www.linkedin.com/in/oseinana-isaac7)
 
 ## 🤝 Contributing
 
@@ -74,5 +73,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
