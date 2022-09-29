@@ -25,7 +25,7 @@
     height: 648px;
     background-image: url(/img/bg-header-illsutration-img/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
-    background-size: cover;?
+    background-size: cover;
   }
 
   /* Meni Icon(hamburger */
@@ -76,6 +76,7 @@
     width: 327px;
     line-height: 75px;
   }
+
   .bottom-border {
     margin: 10px;
     opacity: 1;
@@ -93,16 +94,19 @@
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
+
     /* grid-template-columns: 1fr; */
     justify-content: center;
     margin-top: 40px;
   }
+
   .about-text img {
     top: 50px;
   }
 
   .about-section {
-    background-image: url(/img/about-bg/illustration1-about-me-mobile.svg),
+    background-image:
+      url(/img/about-bg/illustration1-about-me-mobile.svg),
       url(/img/about-bg/illustration-about-me-mobile.svg);
     background-repeat: no-repeat;
     background-position: right -2.1%, 6% -4%;
@@ -124,9 +128,9 @@
 
   .form-section {
     flex-direction: column;
-      background-image: url(/img/form-bg/illustration-contact-form.svg);
-      background-repeat: no-repeat;
-      background-position: 97.72% 91%
+    background-image: url(/img/form-bg/illustration-contact-form.svg);
+    background-repeat: no-repeat;
+    background-position: 97.72% 91%;
   }
 
   .form-section .form-text-primary {
@@ -143,6 +147,7 @@
     width: 320px;
     height: 330px;
   }
+
   .bottom-sIcons {
     display: flex;
     justify-content: center;
@@ -155,22 +160,14 @@
 }
 
 @media (min-width: 769px) {
-  /* .projects {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    gap: 25px;
-  } */
-
   body {
-    background-image: url(/img/desktop/Header-llustration-desktop.svg),
-    url(/img/desktop/Frame.svg),
-    url(/img/desktop/Frame2.svg),
-    url(/img/desktop/illustration-2-contact-form-desktop.svg);
+    background-image:
+      url(/img/desktop/Header-llustration-desktop.svg),
+      url(/img/desktop/Frame.svg),
+      url(/img/desktop/Frame2.svg),
+      url(/img/desktop/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat;
-    background-position: 55.18% 0.08%, 100% 97.52%, 0% 98%,17% 95%;
-    /* background-size: contain; */
-    /* height: 100vh; */
+    background-position: 55.18% 0.08%, 100% 97.52%, 0% 98%, 17% 95%;
   }
 
   .headline-sec {
@@ -181,10 +178,12 @@
     justify-content: center;
     text-align: center;
   }
+
   .header .welcome-logo,
   .nav-toggle {
     opacity: 0;
   }
+
   .menu {
     display: block;
   }
@@ -209,7 +208,6 @@
 }
 
 @media (min-width: 1024px) {
-
   .welcome-logo {
     visibility: hidden;
   }
@@ -231,10 +229,11 @@
   }
 
   .about-section {
-    background-image: url(/img/desktop/illustration-about-me-desktop.svg),
+    background-image:
+      url(/img/desktop/illustration-about-me-desktop.svg),
       url(/img/desktop/illustration-about-me-2-desktop.svg);
-      background-repeat: no-repeat;
-      background-position: 99.18% 0.08%, -4% 19.52%;;
+    background-repeat: no-repeat;
+    background-position: 99.18% 0.08%, -4% 19.52%;
   }
 
   .about-section .profession-skills {
@@ -248,18 +247,10 @@
 
   .form-section {
     flex-direction: row;
-    /* align-items: flex-start; */
     gap: 54px;
-    /* background-image: url(/img/desktop/Frame.svg),
-    url(/img/desktop/Frame2.svg),
-    url(/img/desktop/illustration-2-contact-form-desktop.svg);
-    background-repeat: no-repeat;
-    background-position: 99.18% 0.08%, -4% 19.52%, -4% 20%; */
   }
 
   .form-section .form-text-primary {
-    /* float: left; */
-    /* margin-left: 1%; */
     width: 465px;
     font-size: 30px;
     margin-top: -81px;
@@ -311,7 +302,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: center; */
 }
 
 nav .menu ul {
@@ -320,12 +310,6 @@ nav .menu ul {
   gap: 50px;
   padding: 15px;
   margin-right: 50px;
-}
-
-.menu .nav-link a {
-  color: #172b4d;
-  font-size: 17px;
-  font-weight: 600;
 }
 
 .headline-sec .profession {
@@ -706,4 +690,10 @@ textarea:focus {
   font-size: 20px;
   font-weight: 400;
   height: 58px;
+}
+
+.menu .nav-link a {
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 600;
 }
