@@ -432,8 +432,26 @@ a {
 }
 
 .projects-card .image-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 15rem;
 }
+
+.projects-card .image-holder img {
+  width: 320px;
+  display: block;
+  object-fit: cover;
+  height: 222px;
+  box-shadow: 0 0 1.5rem rgba(17,17,17,.7);
+}
+
+.projects-card .image-holder:hover {
+  box-shadow: 0 0 50px rgba(17,17,17,.5);
+  transform: rotate(-2deg) translateY(-5px) scale(1.025);
+  cursor: pointer;
+}
+
 
 .projects-card .text-container {
   display: flex;
