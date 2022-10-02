@@ -6,13 +6,22 @@
   }
 
   .animate-logo {
-    animation-duration: 1s;
+    animation-duration: 2s;
+    position: relative;
     animation-name: animate-logo;
+    /* animation-direction: reverse; */
+    transition: all 0.2s ease-in-out;
   }
 
   @keyframes animate-logo {
     0% {
-      transform: rotate(360deg);
+      left: -120px;
+      transform: rotate(0deg)scale(1.2);
+      color: #ff6163;
+    }
+    100% {
+      transform: rotate(360deg) scale(1.2);
+      left: -1px;
     }
   }
 
@@ -117,8 +126,7 @@
   }
 
   .about-section {
-    background-image:
-      url(/img/about-bg/illustration1-about-me-mobile.svg),
+    background-image: url(/img/about-bg/illustration1-about-me-mobile.svg),
       url(/img/about-bg/illustration-about-me-mobile.svg);
     background-repeat: no-repeat;
     background-position: right -2.1%, 6% -4%;
@@ -173,10 +181,8 @@
 
 @media (min-width: 769px) {
   body {
-    background-image:
-      url(/img/desktop/Header-llustration-desktop.svg),
-      url(/img/desktop/Frame.svg),
-      url(/img/desktop/Frame2.svg),
+    background-image: url(/img/desktop/Header-llustration-desktop.svg),
+      url(/img/desktop/Frame.svg), url(/img/desktop/Frame2.svg),
       url(/img/desktop/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat;
     background-position: 55.18% 0%, 100% 97.52%, 0% 98%, 17% 95%;
@@ -223,6 +229,11 @@
     font-size: 40px;
     font-style: normal;
   }
+
+  .bottom-border {
+    margin: 10px;
+    opacity: 0;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -247,8 +258,7 @@
   }
 
   .about-section {
-    background-image:
-      url(/img/desktop/illustration-about-me-desktop.svg),
+    background-image: url(/img/desktop/illustration-about-me-desktop.svg),
       url(/img/desktop/illustration-about-me-2-desktop.svg);
     background-repeat: no-repeat;
     background-position: 99.18% 0.08%, -4% 19.52%;
@@ -428,11 +438,6 @@ a {
   margin-top: 64px;
 }
 
-.bottom-border {
-  margin: 10px;
-  opacity: 0;
-}
-
 .projects .projects-card {
   display: flex;
   flex-direction: column;
@@ -444,7 +449,7 @@ a {
 }
 
 .img-1 {
-  background-image: url('/img/project-img/img-1.jpg');
+  background-image: url("/img/project-img/img-1.jpg");
 }
 
 .img-2 {
