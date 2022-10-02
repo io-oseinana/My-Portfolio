@@ -472,15 +472,14 @@ a {
   display: block;
   object-fit: cover;
   height: 222px;
-  box-shadow: 0 0 1.5rem rgba(17,17,17,.7);
+  box-shadow: 0 0 1.5rem rgba(17, 17, 17, 0.7);
 }
 
 .projects-card .image-holder:hover {
-  box-shadow: 0 0 5px rgba(17,17,17,.5);
+  box-shadow: 0 0 5px rgba(17, 17, 17, 0.5);
   transform: scale(1.025);
   cursor: pointer;
 }
-
 
 .projects-card .text-container {
   display: flex;
