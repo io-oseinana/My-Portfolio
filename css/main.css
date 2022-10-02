@@ -447,11 +447,6 @@ a {
   margin-bottom: 15rem;
 }
 
-.projects-card:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
 .projects-card .text-container {
   display: flex;
   flex-direction: column;
