@@ -443,8 +443,54 @@ a {
   border-radius: 6px;
 }
 
+.img-1 {
+  background-image: url('/img/project-img/img-1.jpg');
+}
+
+.img-2 {
+  background-image: url(/img/project-img/img-2.jpg);
+}
+
+.img-3 {
+  background-image: url(/img/project-img/img-3.jpg);
+}
+
+.img-4 {
+  background-image: url(/img/project-img/img-4.jpg);
+}
+
+.img-5 {
+  background-image: url(/img/project-img/img-5.jpg);
+}
+
+.img-6 {
+  background-image: url(/img/project-img/img-6.jpg);
+}
+
 .projects-card .image-holder {
-  margin-bottom: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 467px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects-card .image-holder img {
+  width: 320px;
+  display: block;
+  object-fit: cover;
+  height: 222px;
+  box-shadow: 0 0 1.5rem rgba(17, 17, 17, 0.7);
+}
+
+.projects-card .image-holder:hover {
+  box-shadow: 0 0 5px rgba(17, 17, 17, 0.5);
+  transform: scale(1.025);
+  cursor: pointer;
 }
 
 .projects-card .text-container {
