@@ -7,9 +7,9 @@
   ## Mobile Version Screenshots
   
   ![Screenshot from 2022-09-21 17-34-10](https://user-images.githubusercontent.com/105572944/191574647-8cc912f0-7cef-4598-94f9-43de79320d0d.png)
-
-  ![Screenshot from 2022-09-22 22-09-12](https://user-images.githubusercontent.com/105572944/191863946-7fac78d6-fe6a-463a-bc2a-cc74336a1b55.png)
   
+  ![Screenshot from 2022-10-02 09-11-04](https://user-images.githubusercontent.com/105572944/193446986-13858e34-10d3-4823-97d0-2259d3e4b680.png)
+    
   ![Screenshot from 2022-09-22 22-09-50](https://user-images.githubusercontent.com/105572944/191863992-e838dace-e42c-4e82-8771-85e663fee87e.png)
   
   ![Screenshot from 2022-09-22 22-10-29](https://user-images.githubusercontent.com/105572944/191864005-3f48aa1c-1e85-42a6-bf1b-bbafdaf7899a.png)
@@ -19,8 +19,8 @@
   ## Desktop Version Screenshots
   
   ![Screenshot from 2022-09-29 17-13-30](https://user-images.githubusercontent.com/105572944/193098320-12b3f0de-e4e8-4f8b-8c4a-1bc1b5c76b96.png)
-
-  ![Screenshot from 2022-09-29 17-14-03](https://user-images.githubusercontent.com/105572944/193098383-8ed4a0a8-5f12-477e-a0ae-28f36b2614d8.png)
+  
+  ![Screenshot from 2022-10-02 09-12-51](https://user-images.githubusercontent.com/105572944/193447001-3567fb8c-438c-4370-9840-cc5b38579c6e.png)
   
   ![Screenshot from 2022-09-29 17-14-19](https://user-images.githubusercontent.com/105572944/193098427-de30b352-d133-401c-989c-4910eec6e3d6.png)
 
