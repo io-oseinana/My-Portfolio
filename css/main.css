@@ -26,7 +26,6 @@
 
   .nav {
     margin-right: 15px;
-    cursor: pointer;
   }
 
   .menu {
@@ -164,6 +163,7 @@
     gap: 24px;
     width: 320px;
     height: 330px;
+    margin-right: 12px;
   }
 
   .bottom-sIcons {
@@ -242,6 +242,7 @@
   }
 
   .headline-sec {
+    height: 75vh;
     background-image: none;
     margin: 70px;
   }
