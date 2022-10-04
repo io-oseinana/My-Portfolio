@@ -45,7 +45,9 @@ To get a local copy up and running follow these simple example steps.
   - Must have a code editor
 
 ### Setup
-  - git clone https://github.com/io-oseinana/My-Portfolio.git
+```
+ git clone https://github.com/io-oseinana/My-Portfolio.git
+ ```
   
   - cd My-Portfolio
 
