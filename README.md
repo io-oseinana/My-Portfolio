@@ -4,7 +4,7 @@
   
   This Portolio webpage contain a Complete mobile version and desktop version built with HTML and CSS
   
-  ### Click this link to checkout my work 👉️: https://io-oseinana.github.io/ 
+  ### Click this link to checkout my work 👉️:  https://io-oseinana.github.io/My-Portfolio/ 
 
   
   ## Mobile Version Screenshots
@@ -45,11 +45,12 @@ To get a local copy up and running follow these simple example steps.
   - Must have a code editor
 
 ### Setup
-```
- git clone https://github.com/io-oseinana/My-Portfolio.git
- ```
-  
-  - cd My-Portfolio
+  ```
+   git clone https://github.com/io-oseinana/My-Portfolio.git
+  ```
+  ```
+   cd My-Portfolio
+  ```
 
 
 ## Author
