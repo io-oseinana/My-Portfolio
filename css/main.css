@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Roboto:wght@100&display=swap");
 
 @media (min-width: 320px) {
+  .header {
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0.15rem 0.75rem 0 rgba(58, 59, 69, 0.15);
+  }
+
   .welcome-logo {
     margin-left: 3px;
   }
@@ -30,11 +40,6 @@
 
   .menu {
     display: none;
-  }
-
-  .header {
-    margin: 20px;
-    justify-content: space-between;
   }
 
   .headline-sec {
@@ -193,6 +198,8 @@
   }
 
   .header {
+    padding: 0;
+    background: none;
     justify-content: center;
     text-align: center;
   }
@@ -204,6 +211,10 @@
 
   .menu {
     display: block;
+    background: #fff;
+    width: 315px;
+    border-radius: 8px;
+    margin-right: 76px;
   }
 
   .title {
@@ -244,7 +255,7 @@
   .headline-sec {
     height: 75vh;
     background-image: none;
-    margin: 70px;
+    margin-top: 10rem;
   }
 
   .projects {
@@ -281,7 +292,7 @@
   }
 
   .form-section .form-text-primary {
-    width: 465px;
+    width: 490px;
     font-size: 30px;
     margin-top: -81px;
   }
