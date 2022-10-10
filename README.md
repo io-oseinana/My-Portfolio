@@ -55,6 +55,8 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
+**Osei-Bonsu Isaac**
+
 - GitHub: [@io-oseinana](https://github.com/io-oseinana)
 - Twitter: [@IsaacOs87131165](https://twitter.com/IsaacOs87131165)
 - LinkedIn: [oseinana-isaac7](https://www.linkedin.com/in/oseinana-isaac7)
