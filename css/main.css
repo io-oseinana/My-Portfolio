@@ -124,9 +124,10 @@
     margin-left: -6rem;
   }
 
-  .social-contact .bottom-sIcons ul {
+  .bottom-sIcons ul {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .nav.open .menu ul {
