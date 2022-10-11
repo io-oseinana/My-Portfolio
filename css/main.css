@@ -9,10 +9,17 @@
     background-color: #fff;
     padding: 10px;
     box-shadow: 0 0.15rem 0.75rem 0 rgba(58, 59, 69, 0.15);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 0.5s ease;
   }
 
   .welcome-logo {
     margin-left: 3px;
+  }
+
+  .nav-toggle {
+    pointer-events: all;
   }
 
   .animate-logo {
@@ -85,6 +92,28 @@
 
   .hamburger::after {
     bottom: 6px;
+  }
+
+  .nav.open .menu ul li a {
+    font-size: 24px;
+  }
+
+  .rev-logo.active {
+    opacity: 0;
+    transition: opacity 2s  ease;
+    animation-name: rev-logo;
+  }
+
+  @keyframes rev-logo {
+    0% {
+      left: 0;
+      transform: rotate(360deg);
+    }
+
+    100% {
+      transform: rotate(0deg) scale(1.9);
+      left: -170px;
+    }
   }
 
   .text {
@@ -193,15 +222,13 @@
     background-position: 55.18% 0%, 100% 97.52%, 0% 98%, 17% 95%;
   }
 
-  .headline-sec {
-    background: none;
-  }
-
   .header {
     padding: 0;
     background: none;
+    align-items: center;
     justify-content: center;
     text-align: center;
+    transition: all 0.3s ease;
   }
 
   .header .welcome-logo,
@@ -215,6 +242,11 @@
     width: 315px;
     border-radius: 8px;
     margin-right: 76px;
+  }
+
+
+  .headline-sec {
+    background: none;
   }
 
   .title {
@@ -248,6 +280,10 @@
 }
 
 @media (min-width: 1024px) {
+  .nav-toggle {
+    pointer-events: none;
+  }
+
   .welcome-logo {
     visibility: hidden;
   }
@@ -342,7 +378,6 @@
 .header {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
 nav .menu ul {
@@ -371,8 +406,10 @@ nav .menu ul {
 }
 
 .nav-toggle {
+  position: absolute;
   background: none;
   border: none;
+  padding: 5px;
   cursor: pointer;
   right: 1em;
   top: 1em;
@@ -381,6 +418,7 @@ nav .menu ul {
 .header .welcome-logo {
   font-size: 1.25rem;
   font-weight: 600;
+  height: 1.5rem;
 }
 
 .name {
@@ -431,6 +469,7 @@ a {
   transition: transform 0.2s ease-out;
 }
 
+.down-arrow:hover,
 .social-links:hover {
   transform: translateY(-4px);
   transition: all 0.2s ease-in;
