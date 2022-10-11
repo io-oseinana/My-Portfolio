@@ -244,7 +244,6 @@
     margin-right: 76px;
   }
 
-
   .headline-sec {
     background: none;
   }
@@ -469,16 +468,17 @@ a {
   transition: transform 0.2s ease-out;
 }
 
+.down-arrow {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
 .down-arrow:hover,
 .social-links:hover {
   transform: translateY(-4px);
   transition: all 0.2s ease-in;
 }
 
-.down-arrow {
-  text-align: center;
-  margin: 20px 0 0 0;
-}
 
 /* Work section */
 
