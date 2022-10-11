@@ -93,6 +93,7 @@
   .hamburger::after {
     bottom: 6px;
   }
+
   .nav-toggle.active .hamburger {
     margin-top: -10px;
     background: transparent;
@@ -121,6 +122,11 @@
     transition: all 0.3s ease;
     margin-top: 2rem;
     margin-left: -6rem;
+  }
+
+  .social-contact .bottom-sIcons ul {
+    display: flex;
+    flex-direction: row;
   }
 
   .nav.open .menu ul {
@@ -236,14 +242,9 @@
     margin-right: 12px;
   }
 
-  .bottom-sIcons {
+  .social-contact .bottom-sIcons {
     display: flex;
     justify-content: center;
-  }
-
-  .bottom-sIcons ul {
-    display: flex;
-    flex-direction: row;
   }
 }
 
