@@ -10,3 +10,11 @@ btn.addEventListener('click', () => {
     menu.classList.toggle('open')
     revLogo.classList.toggle('active')
 })
+
+navLink.forEach(btnLink => {
+    btnLink.addEventListener('click', () => {
+        toggler.classList.remove('active')
+        menu.classList.remove('open')
+        revLogo.classList.remove('active')
+    })
+})
