@@ -21,6 +21,9 @@
   
   ![Screenshot from 2022-09-27 12-31-11](https://user-images.githubusercontent.com/105572944/192527040-e52028ff-4502-4979-91c5-93371fb8c2dd.png)
   
+  ![Screenshot from 2022-10-13 09-22-43](https://user-images.githubusercontent.com/105572944/195559192-2e95ebc0-8ed8-47a1-a36f-740427934d98.png)
+
+  
   ## Desktop Version Screenshots
   
   ![Screenshot from 2022-09-29 17-13-30](https://user-images.githubusercontent.com/105572944/193098320-12b3f0de-e4e8-4f8b-8c4a-1bc1b5c76b96.png)
@@ -30,6 +33,8 @@
   ![Screenshot from 2022-09-29 17-14-19](https://user-images.githubusercontent.com/105572944/193098427-de30b352-d133-401c-989c-4910eec6e3d6.png)
 
   ![Screenshot from 2022-09-29 17-14-30](https://user-images.githubusercontent.com/105572944/193098465-e6e5b07b-8cd5-4092-8d1d-f0ce03ac2900.png)
+
+  ![Screenshot from 2022-10-13 09-22-14](https://user-images.githubusercontent.com/105572944/195559229-b3352f1c-d80d-4ee6-bba7-84b93b0cee0a.png)
 
 
 ## Built With

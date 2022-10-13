@@ -36,7 +36,7 @@ const projectDetails = [
     popTitle: 'Keeping track of hundreds of components',
     popDescription,
     image: '/img/project-img/img-1.jpg',
-    popImage: '/img/project-img/Snapshoot-Portfolio-desktop.png',
+    popImage: 'img/project-img/Snapshoot-Portfolio-desktop.png',
     technologies: ['Codekit', 'Github', 'Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     liveLink: 'https://io-oseinana.github.io/My-Portfolio/ ',
     sourceLink: 'https://github.com/io-oseinana/My-Portfolio',
@@ -49,7 +49,7 @@ const projectDetails = [
     popTitle: 'Keep track of hundreds of components',
     popDescription,
     image: '/img/project-img/img-2.jpg',
-    popImage: '/img/project-img/Snapshoot-Portfolio-desktop.png',
+    popImage: 'img/project-img/Snapshoot-Portfolio-desktop.png',
     technologies: ['Codekit', 'Github', 'Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     liveLink: 'https://io-oseinana.github.io/My-Portfolio/ ',
     sourceLink: 'https://github.com/io-oseinana/My-Portfolio',
@@ -62,7 +62,7 @@ const projectDetails = [
     popTitle: 'Keep track of hundreds of components',
     popDescription,
     image: '/img/project-img/img-3.jpg',
-    popImage: '/img/project-img/Snapshoot-Portfolio-desktop.png',
+    popImage: 'img/project-img/Snapshoot-Portfolio-desktop.png',
     technologies: ['Codekit', 'Github', 'Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     liveLink: 'https://io-oseinana.github.io/My-Portfolio/ ',
     sourceLink: 'https://github.com/io-oseinana/My-Portfolio',
@@ -75,7 +75,7 @@ const projectDetails = [
     popTitle: 'Keep track of hundreds of components',
     popDescription,
     image: '/img/project-img/img-4.jpg',
-    popImage: '/img/project-img/Snapshoot-Portfolio-desktop.png',
+    popImage: 'img/project-img/Snapshoot-Portfolio-desktop.png',
     technologies: ['Codekit', 'Github', 'Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     liveLink: 'https://io-oseinana.github.io/My-Portfolio/ ',
     sourceLink: 'https://github.com/io-oseinana/My-Portfolio',
@@ -88,7 +88,7 @@ const projectDetails = [
     popTitle: 'Keep track of hundreds of components',
     popDescription,
     image: '/img/project-img/img-5.jpg',
-    popImage: '/img/project-img/Snapshoot-Portfolio-desktop.png',
+    popImage: 'img/project-img/Snapshoot-Portfolio-desktop.png',
     technologies: ['Codekit', 'Github', 'Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     liveLink: 'https://io-oseinana.github.io/My-Portfolio/ ',
     sourceLink: 'https://github.com/io-oseinana/My-Portfolio',
@@ -101,7 +101,7 @@ const projectDetails = [
     popTitle: 'Keep track of hundreds of components',
     popDescription,
     image: '/img/project-img/img-6.jpg',
-    popImage: '/img/project-img/Snapshoot-Portfolio-desktop.png',
+    popImage: 'img/project-img/Snapshoot-Portfolio-desktop.png',
     technologies: ['Codekit', 'Github', 'Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     liveLink: 'https://io-oseinana.github.io/My-Portfolio/ ',
     sourceLink: 'https://github.com/io-oseinana/My-Portfolio',
@@ -215,3 +215,4 @@ form.addEventListener('submit', (e) => {
   }
   return true;
 });
+
