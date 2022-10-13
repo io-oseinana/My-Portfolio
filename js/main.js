@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-escape */
 /* eslint-disable no-unused-vars */
 const btn = document.querySelector('#btn');
 const toggler = document.querySelector('.nav-toggle');
@@ -179,17 +180,38 @@ function closePopup() {
 }
 
 const form = document.querySelector('#contactMe');
-const email = document.querySelector('#email').value.trim().toLowerCase();
+const email = document.querySelector('#email');
 const errorMsg = document.querySelector('#errorMsg');
 
-const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+// eslint-disable-next-line no-useless-escape
 
-form.addEventListener('submit', (e) => {
-  if (emailRegex.test(email)) {
+const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+const ChecklowerCase = () => {
+  if (email.value === email.value.toLowerCase()) {
     errorMsg.innerText = '';
     return true;
   }
-  errorMsg.innerHTML = 'Please enter a valid email address';
   errorMsg.style.color = 'red';
-  e.preventDefault();
+  email.style.border = '1px solid red';
+  errorMsg.textContent = 'Email must be in lowercase';
+  return false;
+};
+
+const validateEmail = () => {
+  if (!emailRegex.test(email.value)) {
+    errorMsg.innerText = 'Please enter a valid email address';
+    errorMsg.style = 'color: red';
+    email.style.border = '1px solid red';
+    return false;
+  }
+  return true;
+};
+
+form.addEventListener('submit', (e) => {
+  const valid = ChecklowerCase() && validateEmail();
+  if (!valid) {
+    e.preventDefault();
+    return false;
+  }
+  return true;
 });
