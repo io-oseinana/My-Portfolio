@@ -211,6 +211,7 @@
   }
 
   .popup-details {
+    display: none;
     height: 836px;
     width: 343px;
     top: 20px;
