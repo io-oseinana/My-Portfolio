@@ -169,3 +169,12 @@ seeProjectBtn.forEach((btn) => {
   });
 });
 
+function closePopup() {
+    const close = document.querySelector('#close');
+    close.addEventListener('click', () => {
+      body.classList.remove('ovalayActivated');
+      ovarlayBg.classList.remove('ovalayActivated');
+      modal.classList.remove('active');
+    });
+  }
+  
