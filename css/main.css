@@ -353,6 +353,10 @@
     margin-right: 12px;
   }
 
+  #errorMsg {
+    margin-left: 24px;
+  }
+
   .social-contact .bottom-sIcons {
     display: flex;
     justify-content: center;
@@ -606,7 +610,8 @@
 
   .form-container {
     display: flex;
-    flex-wrap: wrap;
+
+    /* flex-wrap: wrap; */
     width: 510px;
     align-items: flex-start;
     margin-left: -2.5%;
