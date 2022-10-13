@@ -352,6 +352,10 @@
     margin-right: 12px;
   }
 
+  #errorMsg {
+    margin: -4px;
+  }
+
   .social-contact .bottom-sIcons {
     display: flex;
     justify-content: center;
