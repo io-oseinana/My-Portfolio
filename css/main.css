@@ -778,30 +778,6 @@ a {
   border-radius: 6px;
 }
 
-/* .img-1 {
-  background-image: url("/img/project-img/img-1.jpg");
-}
-
-.img-2 {
-  background-image: url(/img/project-img/img-2.jpg);
-}
-
-.img-3 {
-  background-image: url(/img/project-img/img-3.jpg);
-}
-
-.img-4 {
-  background-image: url(/img/project-img/img-4.jpg);
-}
-
-.img-5 {
-  background-image: url(/img/project-img/img-5.jpg);
-}
-
-.img-6 {
-  background-image: url(/img/project-img/img-6.jpg);
-} */
-
 .projects-card .image-holder {
   display: flex;
   justify-content: center;
