@@ -181,3 +181,15 @@ function closePopup() {
 const form = document.querySelector('#contactMe');
 const email = document.querySelector('#email').value.trim().toLowerCase();
 const errorMsg = document.querySelector('#errorMsg');
+
+const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+form.addEventListener('submit', (e) => {
+  if (emailRegex.test(email)) {
+    errorMsg.innerText = '';
+    return true;
+  }
+  errorMsg.innerHTML = 'Please enter a valid email address';
+  errorMsg.style.color = 'red';
+  e.preventDefault();
+});
