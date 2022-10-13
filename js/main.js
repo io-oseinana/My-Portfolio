@@ -177,3 +177,7 @@ function closePopup() {
     modal.classList.remove('active');
   });
 }
+
+const form = document.querySelector('#contactMe');
+const email = document.querySelector('#email').value.trim().toLowerCase();
+const errorMsg = document.querySelector('#errorMsg');
