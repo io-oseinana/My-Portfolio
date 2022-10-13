@@ -215,4 +215,3 @@ form.addEventListener('submit', (e) => {
   }
   return true;
 });
-
