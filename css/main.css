@@ -143,7 +143,7 @@
 
   .rev-logo.active {
     opacity: 0;
-    transition: opacity 2s  ease;
+    transition: opacity 2s ease;
     animation-name: rev-logo;
   }
 
@@ -184,6 +184,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 68px;
+    overflow: hidden;
   }
 
   .projects {
@@ -192,6 +193,114 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
+  }
+
+  .work-section .popup-details.active {
+    display: flex;
+    position: fixed;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    top: -129px;
+    transform: scale(0.6);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .popup-details.active .hideMe {
+    display: none;
+  }
+
+  .popup-details {
+    height: 836px;
+    width: 343px;
+    top: 20px;
+    border-radius: 16px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .popup-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px;
+    background-color: #fff;
+    border: 1px solid #ebecf0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .popup-box .close {
+    display: block;
+    height: 40px;
+    width: 40px;
+    left: 294px;
+    font-size: 24px;
+    top: 23px;
+    position: absolute;
+    color: #67798e;
+    cursor: pointer;
+  }
+
+  .popup-details.active .popup-box .close {
+    display: block;
+  }
+
+  .popup-box img {
+    height: 220px;
+    width: 311px;
+    left: 16px;
+    top: 16px;
+    border-radius: 8px;
+  }
+
+  .popup-title {
+    height: 135px;
+    width: 259px;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .popup-box .popup-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .popup-details.active .html {
+    opacity: 0;
+  }
+
+  .iconhold {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    width: 311px;
+    left: 16px;
+    top: 764px;
+    order: 3;
+  }
+
+  .popup-box .link-site {
+    height: 48px;
+    border: none;
+    width: 122px;
+    margin-left: 10px;
+    background: #36b37e;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-text img {
@@ -314,6 +423,119 @@
     margin: 10px;
     opacity: 0;
   }
+
+  /* PopUp Details */
+  .popup-details {
+    display: none;
+    width: 920px;
+    height: 1083px;
+  }
+
+  .work-section .popup-details.active {
+    display: flex;
+    position: fixed;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .work-section .popup-details.active .hideMe {
+    display: block;
+  }
+
+  .popup-details .popup-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 0;
+    gap: 0;
+    height: 1083px;
+    background-color: #fff;
+    border: 1px solid #ebecf0;
+    box-shadow: rgba(37, 47, 137, 0.08);
+    border-radius: 8px;
+    z-index: 2;
+    transition: all 0.3s transform 0.2s ease-in-out;
+  }
+
+  .popup-details.active .popup-box {
+    transform: scale(0.56);
+  }
+
+  .popup-box .close {
+    height: 40px;
+    width: 40px;
+    left: 843px;
+    font-size: 24px;
+    top: 24px;
+    position: absolute;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #ebecf0;
+    cursor: pointer;
+  }
+
+  .popup-box img {
+    height: 616px;
+    width: 872px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+
+  .iconhold {
+    order: 0;
+    margin-left: 37rem;
+    top: 44rem;
+    position: absolute;
+  }
+
+  .popup-box .link-site {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 7px;
+    width: auto;
+  }
+
+  .popup-title {
+    height: 82px;
+    width: 589px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color: #172b4d;
+    margin-right: 15rem;
+  }
+
+  .popup-box .project-language {
+    width: 876px;
+    margin-top: 9px;
+    margin-bottom: 39px;
+    margin-left: -34rem;
+  }
+
+  .popup-details.active .html {
+    opacity: 1;
+  }
+
+  .popup-box .popup-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    height: 151px;
+    width: 876px;
+    color: #344563;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup-details.active .popup-box {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -340,6 +562,17 @@
     grid-template-rows: auto;
     justify-content: center;
     margin-top: 40px;
+  }
+
+  .popup-details.active .popup-box {
+    transform: scale(0.8);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .work-section .popup-details.active {
+    top: -101px;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
   }
 
   .about-section {
@@ -410,6 +643,14 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
+}
+
+body.ovalayActivated header {
+  display: none;
+}
+
+.popup-box .close {
+  display: none;
 }
 
 .header {
@@ -537,38 +778,11 @@ a {
   border-radius: 6px;
 }
 
-.img-1 {
-  background-image: url("/img/project-img/img-1.jpg");
-}
-
-.img-2 {
-  background-image: url(/img/project-img/img-2.jpg);
-}
-
-.img-3 {
-  background-image: url(/img/project-img/img-3.jpg);
-}
-
-.img-4 {
-  background-image: url(/img/project-img/img-4.jpg);
-}
-
-.img-5 {
-  background-image: url(/img/project-img/img-5.jpg);
-}
-
-.img-6 {
-  background-image: url(/img/project-img/img-6.jpg);
-}
-
 .projects-card .image-holder {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  height: 467px;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 241px;
   border-radius: 8px;
   transition: all 0.3s ease-in-out;
 }
@@ -608,7 +822,8 @@ a {
   margin-bottom: 16px;
 }
 
-.text-container .project-language {
+.text-container .project-language,
+.popup-box .project-language {
   display: flex;
   justify-content: start;
   width: 309px;
@@ -643,6 +858,21 @@ a {
   cursor: pointer;
 }
 
+.ovarlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  height: 3846px;
+  width: 100vw;
+  border-radius: 0;
+}
+
+.ovarlay.ovalayActivated {
+  display: initial;
+  opacity: 0.7;
+  background: #c1c7d0;
+}
+
 .about-text button {
   border: none;
   width: 159px;
@@ -664,7 +894,8 @@ form button:hover {
 }
 
 .text-container button:hover,
-.about-text button:hover {
+.about-text button:hover,
+.popup-box .link-site:hover {
   background: #36b37f;
   transition: all 0.5s ease;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
