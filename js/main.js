@@ -5,11 +5,13 @@ const toggler = document.querySelector('.nav-toggle');
 const menu = document.querySelector('.nav');
 const revLogo = document.querySelector('.rev-logo');
 const navLink = document.querySelectorAll('.nav-link');
+const body = document.querySelector('body');
 
 btn.addEventListener('click', () => {
   toggler.classList.toggle('active');
   menu.classList.toggle('open');
   revLogo.classList.toggle('active');
+  body.classList.toggle('navIsActive');
 });
 
 navLink.forEach((btnLink) => {
@@ -137,7 +139,6 @@ const seeProjectBtn = document.querySelectorAll('.see-project');
 
 //  function to open the modal
 const ovarlayBg = document.querySelector('.ovarlay');
-const body = document.querySelector('body');
 
 seeProjectBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
@@ -171,13 +172,14 @@ seeProjectBtn.forEach((btn) => {
 });
 
 function closePopup() {
-  const close = document.querySelector('#close');
-  close.addEventListener('click', () => {
-    body.classList.remove('ovalayActivated');
-    ovarlayBg.classList.remove('ovalayActivated');
-    modal.classList.remove('active');
-  });
+  const closeBtn = document.querySelector('#closeBtny');
+  body.classList.remove('ovalayActivated');
+  ovarlayBg.classList.remove('ovalayActivated');
+  modal.classList.remove('active');
 }
+
+// eslint-disable-next-line no-undef
+closeBtn.addEventListener('click', closePopup);
 
 const form = document.querySelector('#contactMe');
 const email = document.querySelector('#email');
