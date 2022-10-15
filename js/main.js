@@ -19,6 +19,7 @@ navLink.forEach((btnLink) => {
     toggler.classList.remove('active');
     menu.classList.remove('open');
     revLogo.classList.remove('active');
+    body.classList.remove('navIsActive');
   });
 });
 
