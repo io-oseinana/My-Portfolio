@@ -201,7 +201,7 @@
     align-content: center;
     flex-direction: column;
     justify-content: center;
-    top: -70px;
+    top: -90px;
     transform: scale(0.7);
     transition: all 0.5s ease-in-out;
   }
