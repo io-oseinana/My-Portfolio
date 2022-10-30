@@ -103,7 +103,7 @@ const projectDetails = [
     title: 'Multi-Post Stories Gain+Glory',
     popTitle: 'Keep track of hundreds of components',
     popDescription,
-    image: './/img/project-img/img-6.jpg',
+    image: './img/project-img/img-6.jpg',
     popImage: './img/project-img/Snapshoot-Portfolio-desktop.png',
     technologies: ['Codekit', 'Github', 'Ruby on rails', 'css', 'JavaScript', 'Bootstrap', 'Terminal', 'Codepen'],
     liveLink: 'https://io-oseinana.github.io/My-Portfolio/ ',
@@ -173,7 +173,6 @@ seeProjectBtn.forEach((btn) => {
 });
 
 function closePopup() {
-  const closeBtn = document.querySelector('#closeBtny');
   body.classList.remove('ovalayActivated');
   ovarlayBg.classList.remove('ovalayActivated');
   modal.classList.remove('active');
