@@ -54,7 +54,7 @@
     flex-direction: column;
     height: 648px;
     width: 100vw;
-    background-image: url(./img/bg-header-illsutration-img/header-illsutration-mobile.svg);
+    background-image: url(../img/bg-header-illsutration-img/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -310,8 +310,8 @@
 
   .about-section {
     background-image:
-      url(./img/about-bg/illustration1-about-me-mobile.svg),
-      url(./img/about-bg/illustration-about-me-mobile.svg);
+      url(../img/about-bg/illustration1-about-me-mobile.svg),
+      url(../img/about-bg/illustration-about-me-mobile.svg);
     background-repeat: no-repeat;
     background-position: right -2.1%, 6% -4%;
   }
@@ -332,7 +332,7 @@
 
   .form-section {
     flex-direction: column;
-    background-image: url(./img/form-bg/illustration-contact-form.svg);
+    background-image: url(../img/form-bg/illustration-contact-form.svg);
     background-repeat: no-repeat;
     background-position: 97.72% 91%;
   }
@@ -366,10 +366,10 @@
 @media (min-width: 769px) {
   body {
     background-image:
-      url(./img/desktop/Header-llustration-desktop.svg),
-      url(./img/desktop/Frame.svg),
-      url(./img/desktop/Frame2.svg),
-      url(./img/desktop/illustration-2-contact-form-desktop.svg);
+      url(../img/desktop/Header-llustration-desktop.svg),
+      url(../img/desktop/Frame.svg),
+      url(../img/desktop/Frame2.svg),
+      url(../img/desktop/illustration-2-contact-form-desktop.svg);
     background-repeat: no-repeat;
     background-position: 55.18% 0%, 100% 97.52%, 0% 98%, 17% 95%;
   }
@@ -582,8 +582,8 @@
 
   .about-section {
     background-image:
-      url(./img/desktop/illustration-about-me-desktop.svg),
-      url(./img/desktop/illustration-about-me-2-desktop.svg);
+      url(../img/desktop/illustration-about-me-desktop.svg),
+      url(../img/desktop/illustration-about-me-2-desktop.svg);
     background-repeat: no-repeat;
     background-position: 99.18% 0.08%, -4% 19.52%;
   }
